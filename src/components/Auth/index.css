@@ -1,0 +1,45 @@
+.main-div {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-wrapper {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 1em;
+  background-color: #eaeeff;
+}
+
+.auth-wrapper input {
+  margin-top: 10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.auth-wrapper button {
+  background-color: #fff;
+  border: none;
+  padding: 13px 28px;
+  margin-top: 20px;
+  border-radius: 0.5em;
+  color: #0b152f;
+  width: 50%;
+}
+
+.auth-wrapper button:disabled {
+  color: #eaeeff;
+  cursor: default;
+}
+
+.auth-wrapper button:hover:enabled {
+  cursor: pointer;
+}
