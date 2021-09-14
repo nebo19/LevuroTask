@@ -1,0 +1,19 @@
+.navbar-wrapper {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0px;
+}
+
+.navbar-wrapper button {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  padding: 15px;
+  border-radius: 0.5em;
+  color: #0b152f;
+  width: 100px;
+}
+
+.navbar-wrapper button:hover {
+  cursor: pointer;
+}

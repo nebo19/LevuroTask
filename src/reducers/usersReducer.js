@@ -9,7 +9,7 @@ export const usersReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_USERS:
       return {
-        users: action.payload,
+        users: action.payload.data,
         error: null,
       };
     case GET_USERS_ERROR:

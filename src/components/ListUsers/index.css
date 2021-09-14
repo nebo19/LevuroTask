@@ -1,0 +1,52 @@
+.list-users-main {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-users-add-search-wrapper {
+  margin: 15px 10px;
+}
+
+.list-users-add-new-user-button {
+  width: 200px;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 10px;
+}
+
+.list-users-add-new-user-button:hover {
+  cursor: pointer;
+}
+
+.list-users-search-wrapper {
+  padding: 10px 0px;
+}
+
+.list-users-search-wrapper input {
+  border-radius: 0.5em;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  width: 60%;
+}
+
+.list-users-search-wrapper button {
+  border: none;
+  border-radius: 0.5em;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 20%;
+}
+
+.list-users-search-wrapper button:hover {
+  cursor: pointer;
+}
+
+.list-users-wrapper {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
